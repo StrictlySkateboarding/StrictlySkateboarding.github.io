@@ -729,8 +729,8 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.5s ease-in-out;
 }
 .video-promo .video-promo-content .video-popup:hover {
-  background: #4676fa;
-  border-color: #4676fa;
+  background: #000000;
+  border-color: #000000;
   color: #fff;
 }
 .overlay {
