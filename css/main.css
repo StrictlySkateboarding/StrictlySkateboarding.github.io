@@ -123,9 +123,21 @@ a:not([href]):not([tabindex]):hover {
   color: #000000;
   position: relative;
 }
+
+.section-header .section-title1 {
+  font-size: 42px;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #ffffff;
+  position: relative;
+}
+
 .section-header .section-title span {
   color: #000000;
 }
+
+
 .section-header .section-subtitle {
   margin-top: 15px;
   color: #000000;
@@ -238,7 +250,7 @@ a:not([href]):not([tabindex]):hover {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #4676fa;
+  background: #000000;
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
@@ -310,7 +322,7 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 #video-area .contents {
-  padding: 160px 0 80px;
+/*  padding: 160px 0 80px;*/
 }
 #video-area .contents h1 {
   color: #fff;
@@ -347,6 +359,17 @@ a:not([href]):not([tabindex]):hover {
 .overlay-2 {
   background: rgba(0, 0, 0, 0.7) !important;
 }
+
+.videoheader {
+    
+    position: relative;
+    
+    width: 100%;
+    height: 800px;
+    
+    
+}
+
 /* ==========================================================================
    About Section Style
    ========================================================================== */
@@ -842,7 +865,7 @@ a:not([href]):not([tabindex]):hover {
    Download 
    ========================================================================== */
 #download {
-  background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
+  background-image: linear-gradient(120deg, #656565 0%, #000000 100%);
   width: 100%;
 }
 #download .section-title {
@@ -1013,7 +1036,7 @@ a:not([href]):not([tabindex]):hover {
    Footer Style
    ========================================================================== */
 footer {
-  background: #333;
+  background: #000000;
   padding: 60px 0px 30px;
   text-align: center;
 }
