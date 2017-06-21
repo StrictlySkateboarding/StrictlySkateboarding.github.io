@@ -701,7 +701,7 @@ a:not([href]):not([tabindex]):hover {
    Video promo Style
    ========================================================================== */
 .video-promo {
-  background: url(../img/bg_2.jpg) fixed;
+  background: url(../img/features/BackgroundTemplate.png) fixed;
   background-position: cover;
   position: relative;
 }
@@ -865,7 +865,7 @@ a:not([href]):not([tabindex]):hover {
    Download 
    ========================================================================== */
 #download {
-  background-image: linear-gradient(120deg, #656565 0%, #000000 100%);
+  background-image: linear-gradient(120deg, #000000 0%, #000000 100%);
   width: 100%;
 }
 #download .section-title {
