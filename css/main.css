@@ -9,9 +9,20 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 26px;
 }
+
+p1 {
+   
+
+  font-size:14px;
+  line-height: 100px;
+    color: black;
+    
+   
+}
+
 a:hover,
 a:focus {
   color: #ffffff;
@@ -36,6 +47,9 @@ a {
   display: inline-block;
   font-family: 'Lato', sans-serif;
 }
+
+
+
 .btn:focus {
   box-shadow: none;
   outline: none;
@@ -149,7 +163,7 @@ a:not([href]):not([tabindex]):hover {
   width: 70px;
   position: relative;
   border-top: 2px solid #000000;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .section-header .lines:before {
   position: absolute;
@@ -452,7 +466,7 @@ a:not([href]):not([tabindex]):hover {
   padding-bottom: 30px;
 }
 #features .box-item .icon {
-  border: 1px solid #4676fa;
+  border: 1px solid #000000;
   text-align: center;
   margin: 12px;
   -webkit-transition: all 0.2s linear;
@@ -461,7 +475,7 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.2s linear;
 }
 #features .box-item .icon i {
-  color: #4676fa;
+  color: #000000;
   font-size: 24px;
   line-height: 60px;
   -webkit-transition: all 0.2s linear;
@@ -479,16 +493,19 @@ a:not([href]):not([tabindex]):hover {
   line-height: 26px;
 }
 #features .box-item:hover .icon {
-  background: #4676fa;
+  background: #000000;
 }
 #features .box-item:hover .icon i {
   color: #ffffff;
 }
 #features .show-box {
-  padding: 80px 0px 0px;
+  padding: 0px 0px 0px;
 }
 #features .show-box img {
+    
+  
   width: 100%;
+    
 }
 /* ==========================================================================
    Screenshots Section Start
