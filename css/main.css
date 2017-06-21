@@ -377,12 +377,6 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
   background: #f2f2f2;
 }
-
-.centerimage {
-    
-    
-}
-
 .item-boxes {
   text-align: center;
   padding: 15px;
@@ -494,10 +488,7 @@ a:not([href]):not([tabindex]):hover {
   padding: 80px 0px 0px;
 }
 #features .show-box img {
-    
   width: 100%;
-
-    
 }
 /* ==========================================================================
    Screenshots Section Start
